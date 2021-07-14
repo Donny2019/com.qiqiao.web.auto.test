@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publicmethod>
+    <loginruntime>
+        <account dec="输入账号" loc="xpath=>//input[@placeholder='请输入账号']"/>
+        <password dec="输入密码" loc="xpath=>//input[@placeholder='请输入密码']"/>
+        <role dec="选择角色" loc="xpath=>//div[@class='dy-select dy-select-visible']//span[text()='用户']"/>
+    </loginruntime>
+</publicmethod>
