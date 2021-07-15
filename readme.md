@@ -1,6 +1,8 @@
 ##项目目录介绍
 com.qiqiao.web.auto.test
+
     --basepage  页面基础操作的方法封装
+    --cases 测试用例
     --data 存放测试数据
     --driver 存放浏览器驱动文件
     --elements 管理存放页面元素定位数据，使用xml文件管理
@@ -16,4 +18,14 @@ com.qiqiao.web.auto.test
         --operation 运营平台业务操作
         --runtime 运行平台业务操作
             --application 应用业务操作
+            --common 公共方法
+            --components 表单组件操作方法
+            --process 流程业务操作
+    --reports 测试报告
+    --screenshots 截图
+    --setting 设置
+        --全局设置
+    --tools 
+        --custom_method 公用的方法
+    
             

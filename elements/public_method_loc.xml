@@ -5,4 +5,10 @@
         <password dec="输入密码" loc="xpath=>//input[@placeholder='请输入密码']"/>
         <role dec="选择角色" loc="xpath=>//div[@class='dy-select dy-select-visible']//span[text()='用户']"/>
     </loginruntime>
+    <home>
+        <workbench dec="工作台" loc="xpath=>//div[@class='portal_layout_sider']/ul/li[1]/div"/>
+        <applist dec="应用列表" loc="xpath=>//div[@class='portal_layout_sider']/ul/li[2]/div"/>
+        <pendnglist dec="待办列表" loc="xpath=>//div[@class='portal_layout_sider']/ul/li[3]/div"/>
+        <more dec="更多" loc="xpath=>//div[@class='portal_layout_sider']/ul/li[4]/div"/>
+    </home>
 </publicmethod>
